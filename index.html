@@ -1,0 +1,369 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ayla Azzura — Informatics Engineering student and aspiring Front-End Developer who loves creating things for the web.">
+  <meta name="theme-color" content="#080b16">
+
+  <title>Ayla Azzura | Front-End Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!-- NAVIGATION -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navigasi utama">
+
+      <a class="logo" href="#home">
+        <span class="logo-mark">A</span>
+        <span>ayla<span class="accent">.</span></span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-label="Buka menu navigasi"
+        aria-expanded="false"
+        aria-controls="nav-links"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="nav-contact">
+          Let's talk <span>↗</span>
+        </a>
+      </div>
+
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero container" id="home">
+
+      <div class="hero-copy reveal">
+        <p class="eyebrow">
+          <span class="status-dot"></span>
+          LEARNING, BUILDING & GROWING
+        </p>
+
+        <p class="intro">HALO, AKU AYLA AZZURA</p>
+
+        <h1>
+          I build things<br>
+          for the <span class="gradient-text">web.</span>
+        </h1>
+
+        <p class="hero-description">
+        <p class="hero-description">
+         An Informatics Engineering student at Politeknik Negeri Lhokseumawe,
+         passionate about crafting clean, responsive, and user-friendly
+         digital experiences.
+</p>
+
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">
+            Explore my work <span>↘</span>
+          </a>
+
+          <a class="button button-ghost" href="#contact">
+            Say hello <span>↗</span>
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <span>
+            <i class="status-dot"></i>
+            HTML · CSS · JavaScript
+          </span>
+
+          <span>Based in Indonesia 🇮🇩</span>
+        </div>
+      </div>
+
+      <!-- DECORATIVE DEVELOPER ILLUSTRATION -->
+      <div class="hero-art reveal" aria-label="Ilustrasi kreatif bertema coding">
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+
+        <div class="planet">
+          <div class="planet-shine"></div>
+          <div class="planet-ring"></div>
+          <span class="planet-letter">A<span>.</span></span>
+        </div>
+
+        <div class="floating-card card-code">
+          <div class="window-dots">
+            <i></i><i></i><i></i>
+          </div>
+
+          <code>
+            <b>const</b> passion = <em>"web"</em>;<br>
+            <b>let</b> learning = <strong>true</strong>;
+          </code>
+        </div>
+
+        <div class="floating-card card-bracket">
+          <span>&lt;/&gt;</span>
+          <small>CREATIVE<br>DEVELOPER</small>
+        </div>
+
+        <div class="spark spark-one">✦</div>
+        <div class="spark spark-two">✧</div>
+      </div>
+
+    </section>
+
+    <!-- ABOUT ME -->
+    <section class="section container" id="about">
+
+      <div class="section-heading reveal">
+        <p class="section-label">01 / ABOUT ME</p>
+
+        <h2>
+          Curious mind.<br>
+          <span class="muted-heading">Creative builder.</span>
+        </h2>
+      </div>
+
+      <div class="about-grid">
+
+        <p class="about-lead reveal">
+          Punya banyak ide, suka eksplorasi, dan selalu penasaran
+          dengan hal baru yang bisa dibuat lewat coding.
+        </p>
+
+        <div class="about-copy reveal">
+          <p>
+            Saat ini aku sedang mendalami dunia Front-End Development,
+            mulai dari membangun struktur website, mengatur tampilan,
+            sampai membuat interaksi menggunakan JavaScript.
+          </p>
+
+          <p>
+            Buatku, belajar coding bukan cuma soal menulis kode,
+            tetapi juga tentang mencoba, menemukan solusi, dan terus
+            berkembang dari setiap prosesnya. One step at a time!
+          </p>
+
+          <div class="education">
+            <span class="education-icon">✳</span>
+
+            <div>
+              <strong>Teknik Informatika</strong>
+              <span>Politeknik Negeri Lhokseumawe</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section container" id="skills">
+
+      <div class="section-heading reveal">
+        <p class="section-label">02 / MY TOOLKIT</p>
+
+        <h2>
+          Things I'm <span class="gradient-text">learning.</span>
+        </h2>
+
+        <p class="section-subtitle">
+          Teknologi yang sedang aku pelajari dan gunakan
+          untuk membangun website.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+
+        <article class="skill-card reveal">
+          <div class="skill-icon html-icon">5</div>
+
+          <div>
+            <h3>HTML5</h3>
+            <p>Menyusun struktur website yang rapi dan mudah dipahami.</p>
+          </div>
+
+          <span class="skill-number">01</span>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-icon css-icon">✳</div>
+
+          <div>
+            <h3>CSS3</h3>
+            <p>Mengatur layout, warna, animasi, dan responsive design.</p>
+          </div>
+
+          <span class="skill-number">02</span>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-icon js-icon">JS</div>
+
+          <div>
+            <h3>JavaScript</h3>
+            <p>Membuat website lebih interaktif dan dinamis.</p>
+          </div>
+
+          <span class="skill-number">03</span>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section container" id="projects">
+
+      <div class="section-heading reveal">
+        <p class="section-label">03 / SELECTED WORK</p>
+
+        <h2>
+          Small steps,<br>
+          <span class="gradient-text">big ideas.</span>
+        </h2>
+
+        <p class="section-subtitle">
+          Memulai dari satu project, belajar dari prosesnya,
+          lalu berkembang ke hal-hal baru.
+        </p>
+      </div>
+
+      <article class="project-card reveal">
+
+        <div class="project-preview">
+          <div class="preview-top">
+            <span></span>
+            <span></span>
+            <span></span>
+            <small>ayla-portfolio</small>
+          </div>
+
+          <div class="preview-content">
+            <div class="preview-line short"></div>
+
+            <div class="preview-title">
+              Hello, world<span>.</span>
+            </div>
+
+            <div class="preview-line"></div>
+            <div class="preview-line medium"></div>
+
+            <div class="preview-pill">MY FIRST PORTFOLIO</div>
+            <div class="preview-orb"></div>
+          </div>
+        </div>
+
+        <div class="project-info">
+
+          <p class="project-label">PROJECT 01 · PERSONAL</p>
+
+          <h3>Personal Portfolio Website</h3>
+
+          <p>
+            Website portofolio pertamaku yang dibuat menggunakan
+            HTML, CSS, dan JavaScript murni. Project ini menjadi
+            tempat untuk memperkenalkan diri, menampilkan skill,
+            dan mendokumentasikan perjalananku belajar coding.
+          </p>
+
+          <div class="tag-list">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Responsive Design</span>
+          </div>
+
+          <span class="project-status">
+            <i class="status-dot"></i>
+            First project · In progress
+          </span>
+
+        </div>
+      </article>
+
+      <p class="project-note reveal">
+        ✦ This is just the beginning — masih banyak ide yang ingin aku coba!
+      </p>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-section" id="contact">
+
+      <div class="container contact-inner reveal">
+
+        <p class="section-label">04 / GET IN TOUCH</p>
+
+        <h2>
+          Got an idea?<br>
+          <span class="gradient-text">Let's build it.</span>
+        </h2>
+
+        <p>
+          Punya ide, ingin sharing seputar coding, atau sekadar
+          say hello? Feel free to connect with me!
+        </p>
+
+        <a
+          class="button button-primary"
+          href="https://github.com/aylazzura"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Find me on GitHub <span>↗</span>
+        </a>
+
+        <div class="contact-social">
+          <a
+            href="https://github.com/aylazzura"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub ↗
+          </a>
+
+          <span>·</span>
+
+          <a href="#home">Back to top ↑</a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer container">
+
+    <a class="logo" href="#home">
+      <span class="logo-mark">A</span>
+      <span>ayla<span class="accent">.</span></span>
+    </a>
+
+    <p>Made with curiosity, coffee & code ☕</p>
+
+    <span>© <span id="year"></span> Ayla Azzura</span>
+
+  </footer>
+
+</body>
+</html>
